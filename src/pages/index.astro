@@ -15,7 +15,13 @@ const posts = (await getCollection('posts')).sort((a, b) => b.data.date.valueOf(
             <a href={`/${post.id}/`}>{post.data.title}</a>
           </h1>
 
-          <div class="entry" set:html={excerpt(post.rendered?.html ?? '')} />
+          <div class="entry">
+            {post.data.description?.trim() ? (
+              <p>{post.data.description}</p>
+            ) : (
+              <Fragment set:html={excerpt(post.rendered?.html ?? '')} />
+            )}
+          </div>
 
           <a href={`/${post.id}/`} class="read-more">
             Read More

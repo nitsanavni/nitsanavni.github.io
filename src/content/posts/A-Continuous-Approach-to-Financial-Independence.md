@@ -1,6 +1,7 @@
 ---
 date: 2022-12-25
 title: A Continuous Approach to Financial Independence
+description: "Don't wait to be 100% FI to start reducing workload"
 ---
 
 Note:
