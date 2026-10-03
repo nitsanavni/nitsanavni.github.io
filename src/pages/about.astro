@@ -3,11 +3,13 @@ import Base from '../layouts/Base.astro';
 ---
 
 <Base title="About">
-  <article class="post">
+  <article class="page">
     <h1>About</h1>
-    <div class="prose">
+
+    <div class="entry">
       <p>As the name implies I love asking questions.</p>
-      <h3>Things I've been curious about lately</h3>
+
+      <h3 id="things-ive-been-curious-about-lately">Things I’ve been curious about lately</h3>
       <ul>
         <li>Ensemble Programming</li>
         <li>Coaching Development Teams</li>
@@ -16,8 +18,10 @@ import Base from '../layouts/Base.astro';
         <li>Financial Independence</li>
         <li>Refactoring Software</li>
       </ul>
-      <h3>Contact me</h3>
-      <p>I'd love to hear from you! And would be happy to connect.</p>
+
+      <h3 id="contact-me">Contact me</h3>
+
+      <p>I’d love to hear from you! And would be happy to connect.</p>
     </div>
   </article>
 </Base>

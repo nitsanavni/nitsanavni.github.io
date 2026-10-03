@@ -1,20 +1,27 @@
 ---
 import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
-import { formatDate } from '../site';
+import { excerpt } from '../site';
 
 const posts = (await getCollection('posts')).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 ---
 
 <Base>
-  <ul class="post-list">
+  <div class="posts">
     {
       posts.map((post) => (
-        <li>
-          <time datetime={post.data.date.toISOString()}>{formatDate(post.data.date)}</time>
-          <a href={`/${post.id}/`}>{post.data.title}</a>
-        </li>
+        <article class="post">
+          <h1>
+            <a href={`/${post.id}/`}>{post.data.title}</a>
+          </h1>
+
+          <div class="entry" set:html={excerpt(post.rendered?.html ?? '')} />
+
+          <a href={`/${post.id}/`} class="read-more">
+            Read More
+          </a>
+        </article>
       ))
     }
-  </ul>
+  </div>
 </Base>

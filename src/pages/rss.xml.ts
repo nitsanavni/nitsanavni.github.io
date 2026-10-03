@@ -6,7 +6,7 @@ import { SITE } from '../site';
 export async function GET(context: APIContext) {
   const posts = (await getCollection('posts')).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
   return rss({
-    title: SITE.title,
+    title: SITE.name,
     description: SITE.description,
     site: context.site!,
     items: posts.map((post) => ({
