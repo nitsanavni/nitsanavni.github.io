@@ -4,7 +4,9 @@
 /Capability-Traps /capability-traps/ 301
 /Decoupled-Design-with-Rx/ /decoupled-design-with-rx/ 301
 /Decoupled-Design-with-Rx /decoupled-design-with-rx/ 301
-/Hello-World/ /hello-world/ 301
-/Hello-World /hello-world/ 301
+/Hello-World/ / 301
+/Hello-World / 301
+/hello-world/ / 301
+/hello-world / 301
 /TDD-with-Orange-Green-Refactor/ /tdd-with-orange-green-refactor/ 301
 /TDD-with-Orange-Green-Refactor /tdd-with-orange-green-refactor/ 301
