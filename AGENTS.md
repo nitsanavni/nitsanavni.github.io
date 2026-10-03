@@ -7,7 +7,7 @@ Personal blog. Astro static site, served by a Cloudflare Worker.
   URL is the lowercased slug: `/<slug>/`.
 - Drafts: `in-progress/` (not built).
 - Images: `public/images/`.
-- Look matches the old jekyll-now theme (`src/styles/`, `src/code-theme.ts`).
+- Styling: `src/styles/`, with the syntax palette in `src/code-theme.ts`.
 
 ## Deploy
 - Push to `master` → GitHub Action → `wrangler deploy` → nitsanavni.com.
@@ -24,5 +24,11 @@ Personal blog. Astro static site, served by a Cloudflare Worker.
   `nitsanavni-blog-deploy`.
 
 ## Writing
-- Posts are in Nitsan's voice. Don't publish a post (move it out of
-  `in-progress/` or push it) without Nitsan's OK.
+- Nitsan is the sole author of blog content. Agents, including Codex and Claude,
+  must not draft, expand, or rewrite posts, drafts, titles, excerpts, descriptions,
+  or other reader-facing prose.
+- Agents may change code and styling and carry out Nitsan's explicit content
+  instructions, such as removing a post or applying his supplied wording. Do not
+  invent replacement text or summaries.
+- Don't publish a post (move it out of `in-progress/` or push it) without
+  Nitsan's explicit OK.
