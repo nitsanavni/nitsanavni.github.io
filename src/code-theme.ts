@@ -1,19 +1,18 @@
-// Code blocks styled like the old Jekyll site: rouge markup and the
-// solarized colors from src/styles/_highlights.scss.
+// Keep the existing Rouge markup with a restrained, readable light palette.
 import type { ShikiTransformer, ThemeRegistration } from 'shiki';
 
-const green = '#859900';
-const blue = '#268BD2';
-const cyan = '#2AA198';
-const gray = '#93A1A1';
-const name = '#555555';
+const green = '#48613f';
+const blue = '#315b86';
+const cyan = '#276454';
+const gray = '#606975';
+const name = '#373d45';
 
 export const rougeTheme: ThemeRegistration = {
   name: 'rouge-solarized',
   type: 'light',
-  colors: { 'editor.foreground': name, 'editor.background': '#efefef' },
+  colors: { 'editor.foreground': name, 'editor.background': '#f5f5f3' },
   tokenColors: [
-    { scope: ['comment'], settings: { foreground: '#586E75' } },
+    { scope: ['comment'], settings: { foreground: '#69685f' } },
     { scope: ['keyword', 'storage.modifier', 'variable.language', 'keyword.operator'], settings: { foreground: green } },
     { scope: ['storage.type', 'support.type.primitive', 'entity.name.tag'], settings: { foreground: blue } },
     { scope: ['string', 'constant.numeric'], settings: { foreground: cyan } },

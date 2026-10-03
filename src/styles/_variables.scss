@@ -4,20 +4,21 @@
 //
 
 // Colors
-$blue: #4183C4;
+$blue: #2f6396;
 
 // Grays
 $black: #000;
-$darkerGray: #222;
-$darkGray: #333;
-$gray: #666;
-$lightGray: #eee;
-$white: #fff;
+$darkerGray: #282f38;
+$darkGray: #373d45;
+$gray: #656870;
+$lightGray: #e3e5e6;
+$white: #fdfcfb;
 
 // Font stacks
 $helvetica: Helvetica, Arial, sans-serif;
 $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $georgia: Georgia, serif;
+$monospace: ui-monospace, "SFMono-Regular", Consolas, "Liberation Mono", monospace;
 
 // Mobile breakpoints
 @mixin mobile {
