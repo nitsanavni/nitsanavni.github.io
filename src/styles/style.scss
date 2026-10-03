@@ -1,5 +1,6 @@
-@import "reset";
-@import "variables";
+@use "sass:meta";
+@use "reset";
+@use "variables" as *;
 
 html {
   font-size: 100%;
@@ -226,8 +227,8 @@ footer {
   }
 }
 
-@import "highlights";
-@import "svg-icons";
+@include meta.load-css("highlights");
+@include meta.load-css("svg-icons");
 
 .footer .svg-icon {
   width: 24px;
