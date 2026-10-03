@@ -1,5 +1,5 @@
 ---
-layout: post
+date: 2022-12-25
 title: A Continuous Approach to Financial Independence
 ---
 

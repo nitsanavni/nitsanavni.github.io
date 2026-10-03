@@ -1,5 +1,5 @@
 ---
-layout: post
+date: 2022-06-29
 title: Decoupled Design with Rx
 ---
 
