@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "nitsanavni",
+  "compatibility_date": "2026-10-03",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page"
+  },
+  "routes": [
+    { "pattern": "nitsanavni.com", "custom_domain": true },
+    { "pattern": "www.nitsanavni.com", "custom_domain": true }
+  ]
+}

@@ -6,7 +6,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "deploy": "astro build && wrangler deploy"
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.19",
@@ -14,6 +15,7 @@
     "astro": "^7.3.5"
   },
   "devDependencies": {
-    "sass": "^1.105.1"
+    "sass": "^1.105.1",
+    "wrangler": "^4.147.0"
   }
 }
