@@ -16,9 +16,10 @@ Personal blog. Astro static site, served by a Cloudflare Worker.
 
 ## Do not touch without asking
 - `gh-pages` branch: redirect pages for nitsanavni.github.io. GitHub Pages serves it.
+- Ruleset "Protect master and gh-pages": no force-push, no deletion.
 - Old post URLs: never rename a published slug; add a `public/_redirects` line instead.
 - `wrangler.jsonc` routes and the www redirect in `src/worker.ts`.
-- Secret `CLOUDFLARE_API_TOKEN` (repo secret). Token name in Cloudflare:
+- Secret `CLOUDFLARE_API_TOKEN` in the `production` environment (master only). Token name in Cloudflare:
   `nitsanavni-blog-deploy`.
 
 ## Writing
