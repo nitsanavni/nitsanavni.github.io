@@ -10,6 +10,7 @@ These are the agreements between Nitsan and Claude for writing sessions. I updat
 - When a decision is made, such as a new name, I update everything that follows from it: titles, headings, filenames, links and other drafts. I only ask about choices that are still genuinely open.
 - I create a draft file only when asked, and then I leave it empty.
 - Nothing moves out of `in-progress/` without an explicit OK.
+- No links from public places (READMEs, other sites) to unpublished posts, since they would 404. Instead, a TODO comment in the draft adds the link once the post is published.
 
 ## Talking
 

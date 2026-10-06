@@ -11,3 +11,5 @@ Yes, Claude can monitor the obvious
 ## codex can monitor too
 
 The Codex CLI has its own way to accomplish the same thing. [codex-monitor](https://github.com/nitsanavni/codex-monitor) 
+
+<!-- Claude: TODO on publish: add a link back to this post from the codex-monitor README. -->
