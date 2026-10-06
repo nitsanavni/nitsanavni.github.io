@@ -9,7 +9,7 @@ Set up a reminder system for your coding agent. Agree on what should the agent b
 
 There might be some things the agent forgets. The reminder system is there to, well, remind it.
 
-I use this for things like working agreements.
+I use this for things like [working agreements](/patterns-of-working-with-ai-working-agreements/).
 
 
 actually - I should try this using the monitor tool...
