@@ -7,7 +7,7 @@ Finally mobbing with AI feels right.
 
 tl;dr
 
-<!-- Claude: Typos fixed, frontmatter added (title from your filename), links added. Open: the filename becomes the URL ("wih", spaces). OK to rename to `patterns-for-mobbing-with-ai.md`? Close the file first. -->
+<!-- Claude: Typos fixed, frontmatter added (title from your filename), links added. Open: the filename becomes the URL ("wih", spaces). OK to rename to `patterns-for-mobbing-with-ai.md`? Close the file first. --> just fix things like typos and spaces 
 
 Two main patterns make this possible for us:
 1. [Session Notes](/patterns-of-working-with-ai-an-alternative-to-the-chat-stream/) - an alternative to reading the agents' chat streams
