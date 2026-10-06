@@ -22,6 +22,7 @@ These are the agreements between Nitsan and Claude for writing sessions. I updat
 ## Mechanics
 
 - I watch the drafts, SESSION-NOTES.md and this file, and I act on a save once it has settled (about 10 s of quiet).
+- Each watch event already includes the diff, so I can act on a save without reading the file again.
 - I write to a file only after Nitsan's save has settled, so neither of us overwrites the other. If there's a conflict, his version wins and I redo my change.
 - Every settled save is committed to `master` in small commits, covering the drafts, SESSION-NOTES.md and this file.
 - After I rename a file, his editor tab on the old name has to be closed. Saving from that tab would bring the old file back.
