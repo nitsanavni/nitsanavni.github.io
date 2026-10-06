@@ -57,4 +57,4 @@ Examples include features like:
 
 - Live Transcript - the rapid flow of messages makes it even harder to follow Claude's chat stream
 - html - expressive
-- pair on artifact
+- [Pair on File](/patterns-of-working-with-ai-pair-on-file/)
