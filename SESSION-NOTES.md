@@ -1,6 +1,7 @@
 # Writing session
 
 >>> LATEST FROM CLAUDE, newest first <<<
+- 11:15 SEEN: "typos - just fix, frontmatter - just add" (overview draft). Working on it in all three drafts.
 - DONE: codex-monitor's macOS port and heartbeat fix are pushed to `main` (`ebd0410`, 49/49 tests, end-to-end test passed).
 - DONE: I replaced all 9 Codex comments in the drafts with short `<!-- Claude: -->` ones and added a few of my own. Search for `Claude:`.
 >>> end <<<
