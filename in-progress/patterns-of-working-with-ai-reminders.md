@@ -3,7 +3,7 @@ title: patterns of working with AI - Reminders
 date: 2026-10-06
 ---
 
-# patterns of working with AI - Reminders rename the file too
+# patterns of working with AI - Reminders rename the file too - tidy
 
 Set up a reminder system for your codign agent. Agree on what should 
 
