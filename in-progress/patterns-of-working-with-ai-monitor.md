@@ -6,7 +6,7 @@ date: 2026-10-06
 # patterns of working with AI - Monitor
 
 I find Claude Code's [Monitor tool](https://code.claude.com/docs/en/tools-reference#monitor-tool) so useful for changing the vanilla way of interfacing with it.
-Yes, Claude can monitor the obvious 
+Yes, Claude can monitor the obvious stuff like test runners, CI jobs @claude more ideas?
 
 ## codex can monitor too
 
