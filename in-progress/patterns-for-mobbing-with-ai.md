@@ -21,7 +21,7 @@ You might already know that I'm as passionate about Mob Programming as I am abou
 
 You can find plenty of ideas in Jay Bazuzi's [mobbing patterns directory](https://jay.bazuzi.com/Mobbing-Pattern-Language/)
 
-<!-- Claude: Jay calls it the "Mobbing Pattern Language". It has a "Narrate the agent" pattern, which might connect to your AI patterns. --> adopt his naming and yes that one was comtributed by me
+<!-- Claude: Jay calls it the "Mobbing Pattern Language". It has a "Narrate the agent" pattern, which might connect to your AI patterns. --> adopt his naming and yes that one was comtributed by me <!-- Claude: on it -->
 
 <!-- Claude: One real moment where flow broke would show "didn't feel right". Define Talker-Typist briefly for non-mobbers. -->
 
