@@ -20,7 +20,7 @@ Collaborate and co-create with AI by connecting agents to a real-time live trans
 
 - A note taking / transcription tool that can provide *real-time transcripts* while the meeting takes place. For example, Wispr Flow NoteTaker does that.
 - An AI agent that monitors this live transcript and is instructed to take action according to what is said. Claude Code has a built-in [Monitor tool](https://code.claude.com/docs/en/tools-reference#monitor-tool).
-- Some basic working agreements with the agents - when to respond, when not to respond, how to call attention to something, guardrails - what is in-scope vs. out-of-scope for the agent to do, etc.
+- Some basic [working agreements](/patterns-of-working-with-ai-working-agreements/) with the agents - when to respond, when not to respond, how to call attention to something, guardrails - what is in-scope vs. out-of-scope for the agent to do, etc.
 - Bonus: a broadcasting service to have agents / humans follow along a meeting transcript from anywhere, not just on the same computer.
 
 <!-- Claude: Which agreements did your mob use? How did the agent tell an instruction from brainstorming? What happened with mis-transcriptions? -->
