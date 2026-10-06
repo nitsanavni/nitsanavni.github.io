@@ -9,10 +9,10 @@ This file shows only what needs your attention right now. I rewrite it as things
 
 ## Drafts
 
-- Overview: `in-progress/patterns-for-mobbing-with-ai.md` (2 comments: one real moment where flow broke; what each pattern changed)
-- Session Notes: `in-progress/patterns-of-working-with-ai-an-alternative-to-the-chat-stream.md` (5 comments: name, framing, a real example)
-- Live Transcript: `in-progress/patterns-of-working-with-ai-live-transcript.md` (4 comments: a real moment, why working meetings fit, the mob's agreements)
-- Pair on File: `in-progress/patterns-of-working-with-ai-pair-on-file.md` (new; frontmatter and heading only)
-- Codex can monitor too: `in-progress/codex-can-monitor-too.md` (empty)
+- Overview: [in-progress/patterns-for-mobbing-with-ai.md](in-progress/patterns-for-mobbing-with-ai.md) (2 comments: one real moment where flow broke; what each pattern changed)
+- Session Notes: [in-progress/patterns-of-working-with-ai-an-alternative-to-the-chat-stream.md](in-progress/patterns-of-working-with-ai-an-alternative-to-the-chat-stream.md) (5 comments: name, framing, a real example)
+- Live Transcript: [in-progress/patterns-of-working-with-ai-live-transcript.md](in-progress/patterns-of-working-with-ai-live-transcript.md) (4 comments: a real moment, why working meetings fit, the mob's agreements)
+- Pair on File: [in-progress/patterns-of-working-with-ai-pair-on-file.md](in-progress/patterns-of-working-with-ai-pair-on-file.md) (new; frontmatter and heading only)
+- Codex can monitor too: [in-progress/codex-can-monitor-too.md](in-progress/codex-can-monitor-too.md) (empty)
 
-How we work: `WORKING-STYLE.md`. hyperlink please
+How we work: [WORKING-STYLE.md](WORKING-STYLE.md)
