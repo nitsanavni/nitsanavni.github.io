@@ -4,7 +4,7 @@ This file shows only what needs your attention right now. I rewrite it as things
 
 ## Needs you
 
-- New draft, Pair on File: it has only frontmatter and a heading. The Session Notes draft's "Works well with" said "pair on artifact"; it now links to this post. Tell me if they're different ideas.
+- New draft, Pair on File: it has only frontmatter and a heading. The Session Notes draft's "Works well with" said "pair on artifact"; it now links to this post. Tell me if they're different ideas. ok and let;s decide on one name - artifcat or file?
 - Close any editor tabs left on old filenames. Saving from one would bring the old file back. The current files are under Drafts below.
 - Open comments in the drafts. Search for `Claude:` to find them.
 
