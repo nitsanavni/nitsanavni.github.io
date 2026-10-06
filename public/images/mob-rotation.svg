@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" font-family="-apple-system, 'Helvetica Neue', Arial, sans-serif">
+  <title>Mob rotation: the talker talks, the typist types, the next person is up next; every few minutes everyone moves one seat</title>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2f6396"/>
+    </marker>
+  </defs>
+  <rect width="640" height="420" fill="#fdfcfb"/>
+
+  <!-- rotation arrows: next -> talker -> typist -> next -->
+  <g fill="none" stroke="#2f6396" stroke-width="2.5" marker-end="url(#arrow)">
+    <path d="M282,345 Q140,345 118,232"/>
+    <path d="M215,190 Q320,150 425,190"/>
+    <path d="M522,232 Q510,312 362,320"/>
+  </g>
+
+  <!-- people -->
+  <g fill="#373d45">
+    <!-- talker -->
+    <circle cx="170" cy="168" r="18"/>
+    <path d="M140,222 Q140,192 170,192 Q200,192 200,222 z"/>
+    <!-- typist -->
+    <circle cx="470" cy="168" r="18"/>
+    <path d="M440,222 Q440,192 470,192 Q500,192 500,222 z"/>
+    <!-- next -->
+    <circle cx="320" cy="318" r="18"/>
+    <path d="M290,372 Q290,342 320,342 Q350,342 350,372 z"/>
+  </g>
+  <!-- typist's keyboard -->
+  <rect x="446" y="228" width="48" height="10" rx="2" fill="#656870"/>
+
+  <!-- speech bubbles -->
+  <g font-size="20" fill="#282f38" text-anchor="middle">
+    <path d="M70,60 h170 a12,12 0 0 1 12,12 v40 a12,12 0 0 1 -12,12 h-62 l-14,18 l-4,-18 h-90 a12,12 0 0 1 -12,-12 v-40 a12,12 0 0 1 12,-12 z" fill="#e4ebef"/>
+    <text x="155" y="99">I'm talking</text>
+    <path d="M400,60 h170 a12,12 0 0 1 12,12 v40 a12,12 0 0 1 -12,12 h-90 l-4,18 l-14,-18 h-62 a12,12 0 0 1 -12,-12 v-40 a12,12 0 0 1 12,-12 z" fill="#e4ebef"/>
+    <text x="485" y="99">I'm typing</text>
+    <path d="M380,330 h150 a12,12 0 0 1 12,12 v40 a12,12 0 0 1 -12,12 h-150 a12,12 0 0 1 -12,-12 v-12 l-18,-8 l18,-8 v-12 a12,12 0 0 1 12,-12 z" fill="#e4ebef"/>
+    <text x="455" y="369">I'm next</text>
+  </g>
+
+  <!-- role labels -->
+  <g font-size="15" fill="#656870" text-anchor="middle">
+    <text x="170" y="245">Talker</text>
+    <text x="470" y="258">Typist</text>
+    <text x="320" y="395">Next</text>
+  </g>
+</svg>
