@@ -23,7 +23,7 @@ Mob Programming, aka Ensemble or Software Teaming is a real-time collaborative a
 
 One such popular mob style follows Llewellyn Falco's [strong-style pairing](https://llewellynfalco.blogspot.com/2014/06/llewellyns-strong-style-pairing.html) paradigm where one person assumes the role of the Talker, a second person is the Typist while others stay attentive, and every few minutes the roles rotate. This way every person gets to both talk, type and observe as the turns rotate. It's a great way to keep everybody involved and come closer to a state of 'one mind'.
 
-![Mob rotation: talker, typist and next, rotating every few minutes](/images/mob-rotation.svg) rm the labels from people
+![Mob rotation: talker, typist and next, rotating every few minutes](/images/mob-rotation.svg) rm the labels from people <!-- Claude: on it -->
 
 
 ## AI adds friction
@@ -36,7 +36,7 @@ Some ideas to help reduce this
   - smaller steps - more humans in the loop, less agent autonomy
   - have the agent narrate its work to make it easier to follow
   - have a person narrate the agent's progress out loud - [Narrate the agent](https://jay.bazuzi.com/Mobbing-Pattern-Language/patterns/Narrate%20the%20Agent.html)
-- The balance between the talking-typing pair is disrupted - since a lot of the work is funneled through the agent interface, many times "typing" consists 
+- The balance between the talking-typing pair is disrupted - since a lot of the work is funneled through the agent interface, many times "typing" consists of 
 
 
 
