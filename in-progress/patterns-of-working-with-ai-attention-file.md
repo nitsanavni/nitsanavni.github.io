@@ -51,6 +51,6 @@ Examples include features like:
 
 # Works well with 
 
-- Live Transcript - the rapid flow of messages makes it even harder to follow Claude's chat stream
+- Live Transcript @claud elink please - the rapid flow of messages makes it even harder to follow Claude's chat stream
 - html - expressive
 - [Pair on File](/patterns-of-working-with-ai-pair-on-file/)
