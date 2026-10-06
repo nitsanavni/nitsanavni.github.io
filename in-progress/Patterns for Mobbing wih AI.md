@@ -10,7 +10,7 @@ tl;dr
 <!-- Claude: Typos fixed, frontmatter added (title from your filename), links added. Open: the filename becomes the URL ("wih", spaces). OK to rename to `patterns-for-mobbing-with-ai.md`? Close the file first. -->
 
 Two main patterns make this possible for us:
-1. [Session Notes](/untitled-2/) - an alternative to reading the agents' chat streams
+1. [Session Notes](/untitled-2/ rename this) - an alternative to reading the agents' chat streams
 2. [Transcript-aware Agent](/patterns-of-working-with-ai-agent-follows-live-meeting-transcript/) - agents monitor the conversation in real-time
 
 <!-- Claude: "Session Notes" names a thing; "Transcript-aware Agent" names an ability. Pick one kind for both. -->
