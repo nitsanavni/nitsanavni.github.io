@@ -43,11 +43,4 @@
     <text x="170" y="466">I'm next</text>
   </g>
 
-  <!-- role labels -->
-  <g font-size="15" fill="#656870" text-anchor="middle">
-    <text x="170" y="245">Talker</text>
-    <text x="470" y="258">Typist</text>
-    <text x="122" y="385" text-anchor="end">Next</text>
-    <text x="470" y="415">Mob</text>
-  </g>
 </svg>
