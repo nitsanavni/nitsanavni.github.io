@@ -1,6 +1,7 @@
 # Writing session
 
 >>> LATEST FROM CLAUDE, newest first <<<
+- 11:16 DONE (checked this time): all three drafts now have frontmatter, with titles in your own words (the overview's from its filename, the others' from their `#` headings). Typos fixed: tl;dr, a double space, "and a disrupted", "meetings takes", "WisprFlow". The overview's two patterns link to their drafts. Two questions in the overview's comments: rename its file, and "untitled-2" needs a slug.
 - 11:16 CORRECTION: that DONE was false. My script failed and the commit only contained your edit. Redoing it now.
 - 11:16 SEEN: "adding links too - please just add links" (overview draft).
 - DONE: codex-monitor's macOS port and heartbeat fix are pushed to `main` (`ebd0410`, 49/49 tests, end-to-end test passed).
