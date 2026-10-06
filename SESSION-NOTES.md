@@ -14,8 +14,4 @@ This file shows only what needs your attention right now. I rewrite it as things
 - Live Transcript: `in-progress/patterns-of-working-with-ai-live-transcript.md` (4 comments: a real moment, why working meetings fit, the mob's agreements)
 - Codex can monitor too: `in-progress/codex-can-monitor-too.md` (empty)
 
-## How we work
-
-- You write the prose. I comment (`<!-- Claude: -->`) and fix typos, spacing, filenames and links myself. When a decision changes a name, I update it everywhere.
-- Write requests anywhere: here or in a draft. I reply next to them, then clear them once they're done.
-- Every save is committed to `master` in small steps. Nothing leaves `in-progress/` without your OK.
+How we work: `WORKING-STYLE.md`.
