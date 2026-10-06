@@ -7,7 +7,7 @@ date: 2026-10-06
 
 Set up a reminder system for your coding agent. Agree on what should the agent be reminded about, how frequently or on which events, and then deliver these reminders automatically.
 
-There might be some things the agent forgets
+There might be some things the agent forgets. The reminder system is there to, well, remind it.
 
 
 actually - I should try this using the monitor tool...
