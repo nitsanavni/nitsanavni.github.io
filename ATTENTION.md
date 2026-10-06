@@ -4,7 +4,7 @@ This file shows only what needs your attention right now. I rewrite it as things
 
 ## Needs you
 
-- The Monitor draft now has a "codex can monitor too" section, and the separate codex-can-monitor-too.md is still empty. Should I delete that placeholder so it's one post? I'll leave it until you say. For that section, the repo is public: https://github.com/nitsanavni/codex-monitor idk yet
+- Open (you: "idk yet"): one post or two? The Monitor draft has a "codex can monitor too" section, and codex-can-monitor-too.md is an empty placeholder.
 - Open comments in the drafts. Search for `Claude:` to find them.
 
 ## Drafts
