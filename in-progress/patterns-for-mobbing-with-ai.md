@@ -34,7 +34,7 @@ Some ideas to help reduce this
   - prefer faster models (even if it might mean reduced intelligence)
   - smaller steps - more humans in the loop, less agent autonomy
   - have the agent narrate its work to make it easier to follow
-  - have a person narrate the agent's progress out loud - link to my pattern on jay's list @claude please <!-- Claude: on it -->
+  - have a person narrate the agent's progress out loud - [Narrate the agent](https://jay.bazuzi.com/Mobbing-Pattern-Language/patterns/Narrate%20the%20Agent.html)
 - The balance between the talking-typing pair is disrupted - 
 
 
