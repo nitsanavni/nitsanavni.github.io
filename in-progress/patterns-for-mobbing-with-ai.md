@@ -8,7 +8,7 @@ Finally mobbing with AI feels right.
 tl;dr
 
 Two main patterns make this possible for us:
-1. [Attention File](/patterns-of-working-with-ai-attention-file/) - an alternative to reading the agents' chat streams
+1. [Attention File](/patterns-of-working-with-ai-attention-file/) - an alternative interface to the knwon agents' chat streams
 2. [Live Transcript](/patterns-of-working-with-ai-live-transcript/) - agents monitor the conversation in real-time
 
 Both have to do with modifying the chat-based interface of coding agents. How we provide input to the agent and how we consume output from it.
