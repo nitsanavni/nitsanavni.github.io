@@ -1,8 +1,6 @@
 # Writing session
 
 >>> LATEST FROM CLAUDE, newest first <<<
-- 11:07 SEEN + DONE: "no that doesn't work, I need locality of changes". Back to this one file. TO-CLAUDE.md is gone. Write requests anywhere in here, and I'll reply right next to them as `Claude (11:07): ...`.
-- 11:07 Fixed my timestamps. The earlier entries were guesses, so they now have no time; from now on I take times from the clock.
 - DONE: codex-monitor's macOS port and heartbeat fix are pushed to `main` (`ebd0410`, 49/49 tests, end-to-end test passed).
 - DONE: I replaced all 9 Codex comments in the drafts with short `<!-- Claude: -->` ones and added a few of my own. Search for `Claude:`.
 >>> end <<<
