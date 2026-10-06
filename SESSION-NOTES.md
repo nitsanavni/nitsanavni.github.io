@@ -1,7 +1,8 @@
 # Writing session
 
 >>> LATEST FROM CLAUDE, newest first <<<
-- 11:15 DONE: typos fixed and frontmatter added in all three drafts. The titles are your own words: the filename for the overview, the `#` heading for the other two. The `#` headings are still there; the site probably prints the title too, so one may be redundant. Question in the overview draft: OK to rename its file (it becomes the URL)?
+- 11:16 CORRECTION: that DONE was false. My script failed and the commit only contained your edit. Redoing it now.
+- 11:16 SEEN: "adding links too - please just add links" (overview draft).
 - DONE: codex-monitor's macOS port and heartbeat fix are pushed to `main` (`ebd0410`, 49/49 tests, end-to-end test passed).
 - DONE: I replaced all 9 Codex comments in the drafts with short `<!-- Claude: -->` ones and added a few of my own. Search for `Claude:`.
 >>> end <<<
