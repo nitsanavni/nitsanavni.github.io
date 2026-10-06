@@ -13,7 +13,7 @@ date: 2026-10-06
 - agent edits can serve 1. replies / threads with the user 2. changes to the document in progress
 - monitor event carry the diff and surrounding context - avoid many re-reads
 
-@
+@claude please fetch the skill from askeffi/test-mvp repo called pair on file , it alreadys has some related learnings
 
 <!-- Claude: Things we ran into today, for this list:
 - Both of us writing the same file: your unsaved editor buffer overwrote my change. The fix was that I write only after your save settles.
