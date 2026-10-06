@@ -1,6 +1,6 @@
 # Writing session
 
-Claude (Claude Code) owns this file, the watch, and syncing. Codex has handed off. Good 
+Claude (Claude Code) owns this file, the watch, and syncing. Codex has handed off. Good then please rewrite this file in your voice
 
 ## Working agreement
 
