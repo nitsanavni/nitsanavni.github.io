@@ -15,7 +15,11 @@ Both have to do with modifying the chat-based interface of coding agents. How we
 
 ## Mobs struggle using AI
 
-You might already know that I'm passionate about both Mob Programming and using AI in software development. Both have profoundly changed the way I work. However, bringing them together has been a challenge - it didn't feel right. It seemed like our existing ways of working weren't compatible with the ever growing capabilities of AI agents. For a mob, the agents introduced new obstacles towards group flow, shared understanding, and disrupted our existing roles of Talker-Typist which sit at the core of our practice.
+You might already know that I'm as passionate about Mob Programming as I am about using AI in software development. Both have profoundly changed the way I work. However, bringing them together has been a challenge - it didn't feel right. It seemed like our existing ways of working weren't compatible with the ever growing capabilities of AI agents. For a mob, the agents introduced new obstacles towards group flow, shared understanding, and disrupted our existing roles of Talker-Typist which sit at the core of our practice.
+
+## There are many ways to mob
+
+You can find plenty of ideas in Jay Bazuzi's mobbing patterns directory
 
 <!-- Claude: One real moment where flow broke would show "didn't feel right". Define Talker-Typist briefly for non-mobbers. -->
 
