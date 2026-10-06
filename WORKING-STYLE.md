@@ -15,6 +15,7 @@ These are the agreements between Nitsan and Claude for writing sessions. I updat
 
 - Requests can go anywhere: in SESSION-NOTES.md or in a draft. I reply right next to them.
 - I acknowledge a request before doing anything else, so it's quick to see it was read.
+- Once a request is fully handled, I remove both the request and my acknowledgement. The change itself is the answer, and no markers are left behind.
 - SESSION-NOTES.md is for focused attention, not history. I rewrite it to show only what needs attention now, and I remove items once they're done. Git keeps the history.
 - My changes should be easy to spot: anything that needs attention goes under "Needs you" in SESSION-NOTES.md, and every comment of mine starts with `<!-- Claude:`.
 - No tables. Files are read raw in the editor.
