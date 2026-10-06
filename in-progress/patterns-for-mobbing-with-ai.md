@@ -29,6 +29,13 @@ One such popular mob style follows Llewellyn Falco's [strong-style pairing](http
 
 AI agents provide countless opportunities to enhance software development, but when AIs join the mob some problems arise.
 
+- After a prompt is submitted to the agent, it will start working and it's not clear what the team should do during that time. It's easy to get lost while trying to follow along the agent's work following the stream of events. When the whole team is silent and tries to guess as to what the agent is doing, people are bored, disengaged...
+Some ideas to help reduce this
+  - prefer faster models (even if it might mean reduced intelligence)
+  - smaller steps - more humans in the loop, less agent autonomy
+  - have the agent narrate its work to make it easier to follow
+  - have a person narrate the agent's progress out loud - link to my pattern on jay's list
+
 
 
 <!-- Claude: One real moment where flow broke would show "didn't feel right". -->
