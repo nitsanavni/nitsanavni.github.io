@@ -9,3 +9,5 @@ I find Claude Code's [Monitor tool](https://code.claude.com/docs/en/tools-refere
 Yes, Claude can monitor
 
 ## codex can monitor too
+
+The Codex CLI has its own way to accomplish the same thing. @claude link to 
