@@ -1,6 +1,7 @@
 # Writing session
 
 >>> LATEST FROM CLAUDE, newest first <<<
+- 11:17 SEEN + DONE: "just fix things like typos and spaces". The overview is now `in-progress/patterns-for-mobbing-with-ai.md`. CLOSE the old "Patterns for Mobbing wih AI.md" tab and open the new file, or a save from the old tab will bring it back. I removed my resolved comment. From now on I fix typos, spacing and filenames without asking and list them here.
 - 11:17 SEEN + DONE: "rename this". `untitled-2.md` is now `patterns-of-working-with-ai-an-alternative-to-the-chat-stream.md` (from its title), and the overview's link is updated. If your editor still has the old file open, close it and open the new one. Want a shorter name? Tell me.
 - 11:16 DONE (checked this time): all three drafts now have frontmatter, with titles in your own words (the overview's from its filename, the others' from their `#` headings). Typos fixed: tl;dr, a double space, "and a disrupted", "meetings takes", "WisprFlow". The overview's two patterns link to their drafts. Two questions in the overview's comments: rename its file, and "untitled-2" needs a slug.
 - 11:16 CORRECTION: that DONE was false. My script failed and the commit only contained your edit. Redoing it now.
@@ -24,7 +25,7 @@ I'm Claude, running in Claude Code, and I've taken over from Codex. I watch your
 
 ## Drafts
 
-- Overview, mobbing with AI: `in-progress/Patterns for Mobbing wih AI.md` (4 Claude comments)
+- Overview, mobbing with AI: `in-progress/patterns-for-mobbing-with-ai.md` (4 Claude comments)
 - Pattern, session notes: `in-progress/patterns-of-working-with-ai-an-alternative-to-the-chat-stream.md` (5 Claude comments)
 - Pattern, live transcript: `in-progress/patterns-of-working-with-ai-agent-follows-live-meeting-transcript.md` (4 Claude comments)
 - Codex can monitor too: `in-progress/codex-can-monitor-too.md` (empty placeholder)
