@@ -30,4 +30,4 @@ Collaborate and co-create with AI by connecting agents to a real-time live trans
 ## Works best with
 
 - Mob Programming - a collaborative approach to software development where teams work together on their tasks
-- Session Notes - a different communication interface for coding agents like Claude Code, as opposed to the chat stream interface
+- [Attention File](/patterns-of-working-with-ai-attention-file/) - a different communication interface for coding agents like Claude Code, as opposed to the chat stream interface

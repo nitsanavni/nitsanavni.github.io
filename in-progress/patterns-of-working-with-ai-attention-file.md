@@ -1,13 +1,9 @@
 ---
-title: patterns of working with AI - an alternative to the chat stream
+title: patterns of working with AI - Attention File
 date: 2026-10-06
 ---
 
-# patterns of working with AI - an alternative to the chat stream
-
-> we need a better name for the pattern
-
-<!-- Claude: Naming: decide what the name promises: a log, a current-state view, or a shared channel. "Session Notes" reads like a log. -->
+# patterns of working with AI - Attention File
 
 The basic UX of agents such as Claude Code is the chat interface. You send a message, the agent takes actions and responds to you - all this appends to an ever-growing always-flowing stream of events and messages.
 
@@ -28,7 +24,7 @@ easy to miss critical pieces of information when they arrive / happen
 <!-- Claude: Which problem: missing things live, or catching up after time away? They need different fixes. -->
 
 
-## A simple example - a session notes file
+## A simple example - an attention file
 
 I like simple.
 
@@ -36,7 +32,7 @@ Ask Claude
 
 <!-- Claude: Real example here: what you asked, what the file held, how you used it. -->
 
-<!-- Claude: Material from today's session: (1) I let the notes file grow into an append-only log; you corrected me: it's for focused attention, not history (git has the history). (2) A split into one file per writer failed: you wanted my replies next to your requests. (3) Your editor once saved over my write; now I write only after your save settles. -->
+<!-- Claude: Material from today's session: (1) I let the attention file grow into an append-only log; you corrected me: it's for focused attention, not history (git has the history). (2) A split into one file per writer failed: you wanted my replies next to your requests. (3) Your editor once saved over my write; now I write only after your save settles. -->
 
 ## It could take any shape
 

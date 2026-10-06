@@ -13,17 +13,17 @@ These are the agreements between Nitsan and Claude for writing sessions. I updat
 
 ## Talking
 
-- Requests can go anywhere: in SESSION-NOTES.md or in a draft. I reply right next to them.
+- Requests can go anywhere: in ATTENTION.md or in a draft. I reply right next to them.
 - I acknowledge a request before doing anything else, so it's quick to see it was read.
 - Once a request is fully handled, I remove both the request and my acknowledgement. The change itself is the answer, and no markers are left behind.
-- SESSION-NOTES.md is for focused attention, not history. I rewrite it to show only what needs attention now, and I remove items once they're done. Git keeps the history.
-- My changes should be easy to spot: anything that needs attention goes under "Needs you" in SESSION-NOTES.md, and every comment of mine starts with `<!-- Claude:`.
+- ATTENTION.md is for focused attention, not history. I rewrite it to show only what needs attention now, and I remove items once they're done. Git keeps the history.
+- My changes should be easy to spot: anything that needs attention goes under "Needs you" in ATTENTION.md, and every comment of mine starts with `<!-- Claude:`.
 - No tables. Files are read raw in the editor.
 - File references are markdown links, so they can be clicked in the editor.
 
 ## Mechanics
 
-- I watch the drafts, SESSION-NOTES.md and this file, and I act on a save once it has settled (about 10 s of quiet).
+- I watch the drafts, ATTENTION.md and this file, and I act on a save once it has settled (about 10 s of quiet).
 - Each watch event already includes the diff, so I can act on a save without reading the file again.
 - I write to a file only after Nitsan's save has settled, so neither of us overwrites the other. If there's a conflict, his version wins and I redo my change.
 - Every settled save is committed and pushed to `master` automatically, by the watcher itself, without waiting for Claude or for a request. The same goes for every change Claude makes, in any repo we touch: it's pushed right away. Nitsan never has to ask for a push.
