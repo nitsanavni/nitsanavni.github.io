@@ -29,3 +29,5 @@ date: 2026-10-06
 - Every save is auto-committed, so git keeps the history and the file itself can stay focused.
 - Acknowledge first, then work: you need to see the agent picked up the change.
 - Keep comments local, next to the text they discuss, rather than in a separate file. -->
+
+<!-- Claude: Another one from today: self-expiring replies. The agent leaves a short note marked "disappears on your next save" and removes it when you save, so the file never piles up chatter. You called it a nice pattern. -->

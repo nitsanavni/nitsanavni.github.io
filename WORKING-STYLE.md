@@ -16,6 +16,7 @@ These are the agreements between Nitsan and Claude for writing sessions. I updat
 
 - Requests can go anywhere: in ATTENTION.md or in a draft. I reply right next to them.
 - Every request gets an acknowledgement before I do anything else: a `<!-- Claude: on it -->` placed right next to it and pushed within seconds. The acknowledgement comes first even for quick requests and even when the answer will follow a moment later. When the work is done, the marker goes.
+- Short-lived notes expire on their own: a one-off reply ("got it", "you're right") is marked "disappears on your next save", and I remove it then.
 - Once a request is fully handled, I remove both the request and my acknowledgement. The change itself is the answer, and no markers are left behind.
 - ATTENTION.md is for focused attention, not history. I rewrite it to show only what needs attention now, and I remove items once they're done. Git keeps the history.
 - My changes should be easy to spot: anything that needs attention goes under "Needs you" in ATTENTION.md, and every comment of mine starts with `<!-- Claude:`.
