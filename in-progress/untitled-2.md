@@ -1,3 +1,8 @@
+---
+title: patterns of working with AI - an alternative to the chat stream
+date: 2026-10-06
+---
+
 # patterns of working with AI - an alternative to the chat stream
 
 > we need a better name for the pattern
