@@ -2,7 +2,7 @@
 
 > we need a better name for the pattern
 
-<!-- Codex review: For naming, what is the essential feature: a persistent artifact, a curated view of current state, or a shared place for humans and agents to communicate? "Session Notes" is approachable, but may suggest a chronological record. Decide which expectation you want the name to create. -->
+<!-- Claude: Naming: decide what the name promises: a log, a current-state view, or a shared channel. "Session Notes" reads like a log. -->
 
 The basic UX of agents such as Claude Code is the chat interface. You send a message, the agent takes actions and responds to you - all this appends to an ever-growing always-flowing stream of events and messages.
 
@@ -12,13 +12,15 @@ But that's not always the best UX!
 
 Unattended stretches of time grow longer the more autonomous the agent is.
 
+<!-- Claude: This line is the argument, not a pro or con. Lead with it? -->
+
 pros - 
 represents both the most up to date state of the agent AND all of the history in detail
 
 cons -
 easy to miss critical pieces of information when they arrive / happen
 
-<!-- Codex review: Does the problem come from missing messages as they arrive, catching up after an unattended stretch, or both? Those imply different requirements for the alternative. Also, how will the agent keep the notes current without losing decisions that still matter? -->
+<!-- Claude: Which problem: missing things live, or catching up after time away? They need different fixes. -->
 
 
 ## A simple example - a session notes file
@@ -27,7 +29,9 @@ I like simple.
 
 Ask Claude 
 
-<!-- Codex review: This seems like the place for an example from your own session: what you asked, what the file contained, and how you used it. Who updates it, when, and how do unresolved questions get your attention? Those details would make the pattern reproducible. -->
+<!-- Claude: Real example here: what you asked, what the file held, how you used it. -->
+
+<!-- Claude: Material from today: we both edited one notes file and your editor saved over my update. We fixed it with one file per writer (TO-CLAUDE.md for you, SESSION-NOTES.md for me). Also: you asked for a "latest changes" block at the top, so updates are easy to spot. -->
 
 ## It could take any shape
 
