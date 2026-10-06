@@ -5,13 +5,15 @@ date: 2026-10-06
 
 Finally mobbing with AI feels right.
 
-tl;dr
+## tl;dr
 
 Two main patterns make this possible for us:
 1. [Attention File](/patterns-of-working-with-ai-attention-file/) - an alternative interface to the agent chat stream
 2. [Live Transcript](/patterns-of-working-with-ai-live-transcript/) - the agent monitors the conversation in real-time
 
 Both have to do with modifying the chat-based interface of coding agents. How we provide input to the agent and how we consume output from it. Using these allows us to overcome the friction we've been experiencing in our mobs using AI.
+
+## Mobs struggle using AI
 
 You might already know that I'm passionate about both Mob Programming and using AI in software development. Both have profoundly changed the way I work. However, bringing them together has been a challenge - it didn't feel right. It seemed like our existing ways of working weren't compatible with the ever growing capabilities of AI agents. For a mob, the agents introduced new obstacles towards group flow, shared understanding, and disrupted our existing roles of Talker-Typist which sit at the core of our practice.
 
