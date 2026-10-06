@@ -1,26 +1,24 @@
 # Writing session
 
->>> LATEST FROM CLAUDE (11:11), newest first <<<
-- 11:11 DONE: codex-monitor's macOS port and heartbeat fix are pushed to `main` (49/49 tests pass, end-to-end test passed).
-- 11:09 DONE: I replaced all 9 Codex comments with shorter `<!-- Claude: -->` ones and added a few of my own (typos, frontmatter, filename/URL, a list the old comment split). Your prose is untouched. Search for `Claude:` to find them.
-- 11:06 Your last save overwrote my rewrite (your editor still had the old copy). To stop that: this file is now mine and you only read it. Write requests in `TO-CLAUDE.md`; I moved your requests there word for word. Your editor reloads this file on its own as long as you don't type in it.
-- 11:04 Rewrote this file in my voice. Your three requests (my voice, fast acks, prominent changes) are now rules below.
-- 11:03 codex-monitor end-to-end test on this Mac passed. Details under "What I'm doing".
+>>> LATEST FROM CLAUDE, newest first <<<
+- 11:07 SEEN + DONE: "no that doesn't work, I need locality of changes". Back to this one file. TO-CLAUDE.md is gone. Write requests anywhere in here, and I'll reply right next to them as `Claude (11:07): ...`.
+- 11:07 Fixed my timestamps. The earlier entries were guesses, so they now have no time; from now on I take times from the clock.
+- DONE: codex-monitor's macOS port and heartbeat fix are pushed to `main` (`ebd0410`, 49/49 tests, end-to-end test passed).
+- DONE: I replaced all 9 Codex comments in the drafts with short `<!-- Claude: -->` ones and added a few of my own. Search for `Claude:`.
 >>> end <<<
 
 I'm Claude, running in Claude Code, and I've taken over from Codex. I watch your drafts and this file, commit your saves to `master`, and answer here, so you never need the chat.
 
-## How I work here
+## How we work
 
 - You write all the prose and titles. I don't add sentences to your drafts.
-- My feedback goes inline as `<!-- Claude: ... -->` comments. Codex's old comments are replaced.
-- To discuss a passage, reply inside my comment or add `<!-- Nitsan: ... -->` next to it.
-- You write requests in `TO-CLAUDE.md`. I never edit that file, and you never edit this one, so neither of us overwrites the other.
-- When I see a request, the first thing I do, before any other work, is add a "seen" line to the LATEST block and commit it. When the work is done, I add a "done" line.
-- Every change I make is listed in the LATEST block at the top, with the time, newest first. In drafts, my comments always start with `<!-- Claude:` so you can search for them.
-- When a save settles (about 10 s of quiet), I commit it to `master` as a small commit. I only commit WIP drafts and this file.
+- My feedback in drafts goes in `<!-- Claude: ... -->` comments. Reply inside one, or add `<!-- Nitsan: ... -->` next to it.
+- In this file, write requests wherever they make sense. I answer right below them, and I also log every change in the LATEST block.
+- I write to a file only after your save has settled (about 10 s of quiet), which keeps us from overwriting each other. If your editor ever shows a "file changed on disk" conflict, keep your version and I'll redo mine.
+- When I see a request, my first action is a "SEEN" line in LATEST. When the work is done, I add "DONE".
+- When a save settles, I commit it to `master` as a small commit, WIP drafts and this file only.
 - I create an empty placeholder only when you ask. I move nothing out of `in-progress/` without your OK.
-- No tables. Plain lists, since you read this raw in the editor.
+- No tables. Plain lists, since you read this raw.
 
 ## Drafts
 
@@ -32,7 +30,17 @@ I'm Claude, running in Claude Code, and I've taken over from Codex. I watch your
 ## What I'm doing
 
 - Watching the drafts and this file, checking every 2 s.
-- codex-monitor (`~/code/codex-monitor`): macOS port and heartbeat fix are pushed (`ebd0410`).
-  - Root cause of the orphaned watch: a watch only checked that its conversation was alive when it had output to deliver.
-  - Fix: a heartbeat every 30 s stops the watch once the conversation is gone. Tested end to end against a real Codex.
-  - Known gap, now in the README: the daemon keeps a closed conversation's thread for about 40 s, and an event in that window can still start a turn there.
+- codex-monitor: done and pushed. Known gap, noted in its README: the daemon keeps a closed conversation's thread for about 40 s, and an event in that window can still start a turn there.
+
+## Your requests so far
+
+- please rewrite this file in your voice
+  - Claude: done.
+- on every request that I make, please make it visible as fast as possible that you;ve read it, before taking any other action, and then please keep all up to date
+  - Claude: SEEN/DONE lines in LATEST.
+- changes you make should be prominent, so I can notice them easily
+  - Claude: the LATEST block at the top. In drafts, every comment of mine starts with `<!-- Claude:`.
+- also please rewrite codex's comments and add your own, keep comments shirt and to the point
+  - Claude: done; all 9 replaced.
+- no that doesn work, bc I need locality of hanges - write wehere it makes sense
+  - Claude (11:07): back to one file, replies next to your words.
