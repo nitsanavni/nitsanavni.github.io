@@ -3,6 +3,8 @@ title: patterns of working with AI - agent follows live meeting transcript
 date: 2026-10-06
 ---
 
+ideas for better names for this pattern?
+
 # patterns of working with AI - agent follows live meeting transcript
 
 Claude joined our mob programming session.
