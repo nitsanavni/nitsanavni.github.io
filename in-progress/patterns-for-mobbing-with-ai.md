@@ -19,7 +19,9 @@ You might already know that I'm as passionate about Mob Programming as I am abou
 
 ## There are many ways to mob
 
-You can find plenty of ideas in Jay Bazuzi's [Mobbing Pattern Language](https://jay.bazuzi.com/Mobbing-Pattern-Language/)
+Mob Programming, aka Ensemble or Software Teaming is a real-time collaborative approach to co-creating software allowing teams to work together on a shared task. There are many ways to mob, and you can find plenty of ideas in Jay Bazuzi's [Mobbing Pattern Language](https://jay.bazuzi.com/Mobbing-Pattern-Language/) and in many more places.
+
+One such popular mob style follows Llewellyn Falco's strong-style pairing paradigm where 
 
 <!-- Claude: Since you contributed "Narrate the agent", you could link it here: https://jay.bazuzi.com/Mobbing-Pattern-Language/patterns/Narrate%20the%20Agent.html -->
 
