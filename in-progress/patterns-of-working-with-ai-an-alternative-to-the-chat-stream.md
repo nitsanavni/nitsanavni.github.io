@@ -36,7 +36,7 @@ Ask Claude
 
 <!-- Claude: Real example here: what you asked, what the file held, how you used it. -->
 
-<!-- Claude: Material from today: we both edited one notes file and your editor saved over my update. We fixed it with one file per writer (TO-CLAUDE.md for you, SESSION-NOTES.md for me). Also: you asked for a "latest changes" block at the top, so updates are easy to spot. -->
+<!-- Claude: Material from today's session: (1) I let the notes file grow into an append-only log; you corrected me: it's for focused attention, not history (git has the history). (2) A split into one file per writer failed: you wanted my replies next to your requests. (3) Your editor once saved over my write; now I write only after your save settles. -->
 
 ## It could take any shape
 

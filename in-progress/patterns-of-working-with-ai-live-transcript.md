@@ -23,7 +23,7 @@ Collaborate and co-create with AI by connecting agents to a real-time live trans
 - Some basic working agreements with the agents - when to respond, when not to respond, how to call attention to something, guardrails - what is in-scope vs. out-of-scope for the agent to do, etc.
 - Bonus: a broadcasting service to have agents / humans follow along a meeting transcript from anywhere, not just on the same computer.
 
-<!-- Claude: (Moved: the old comment split this list.) Which agreements did your mob use? How did the agent tell an instruction from brainstorming? What happened with mis-transcriptions? -->
+<!-- Claude: Which agreements did your mob use? How did the agent tell an instruction from brainstorming? What happened with mis-transcriptions? -->
 
 <!-- Claude: Codex can monitor now too (codex-monitor); mention it next to Claude's Monitor? -->
 
