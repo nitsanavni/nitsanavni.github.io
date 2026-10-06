@@ -16,6 +16,7 @@ This file shows only what needs your attention right now. I rewrite it as things
 - Pair on File: in-progress/patterns-of-working-with-ai-pair-on-file.md (your minddump; 2 comments: today's observations, learnings from the skill)
 - Monitor: in-progress/patterns-of-working-with-ai-monitor.md (new; frontmatter and heading only)
 - Reminders: in-progress/patterns-of-working-with-ai-reminders.md. Renamed now that you've moved to another file. Close the old reminders.md tab.
+- Working Agreements: in-progress/patterns-of-working-with-ai-working-agreements.md (new; frontmatter and heading only; linked from Reminders)
 - Codex can monitor too: in-progress/codex-can-monitor-too.md (empty)
 
 How we work: WORKING-STYLE.md
