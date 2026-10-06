@@ -12,6 +12,7 @@ date: 2026-10-06
 - two way communication - agent monitors the file , sees every change, and also can edit the file
 - agent edits can serve 1. replies / threads with the user 2. changes to the document in progress
 - monitor event carry the diff and surrounding context - avoid many re-reads
+- even for just fixing spelling or grammar mistake while you type
 
 <!-- Claude: Learnings from the pair-on-file skill. I've paraphrased them and left out the internal tooling, since that repo is private and this one is public.
 - Watch the directory, not the file. Editors that save atomically (write a temp file, then rename it) break a watch on the file itself.
