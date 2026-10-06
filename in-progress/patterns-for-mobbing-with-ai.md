@@ -21,9 +21,13 @@ You might already know that I'm as passionate about Mob Programming as I am abou
 
 Mob Programming, aka Ensemble or Software Teaming is a real-time collaborative approach to co-creating software allowing teams to work together on a shared task. There are many ways to mob, and you can find plenty of ideas in Jay Bazuzi's [Mobbing Pattern Language](https://jay.bazuzi.com/Mobbing-Pattern-Language/) and in many more places.
 
-One such popular mob style follows Llewellyn Falco's [strong-style pairing](https://llewellynfalco.blogspot.com/2014/06/llewellyns-strong-style-pairing.html) paradigm where one person assumes the role of the Talker, a second person is the Typist while others stay attentive, and evry few minute the roles rotate. This way every person gets to both talk, type and observe as the turns rotate.
+One such popular mob style follows Llewellyn Falco's [strong-style pairing](https://llewellynfalco.blogspot.com/2014/06/llewellyns-strong-style-pairing.html) paradigm where one person assumes the role of the Talker, a second person is the Typist while others stay attentive, and every few minutes the roles rotate. This way every person gets to both talk, type and observe as the turns rotate. It's a great way to keep everybody involved and approach the state of 'one mind'.
 
-<!-- Claude: Since you contributed "Narrate the agent", you could link it here: https://jay.bazuzi.com/Mobbing-Pattern-Language/patterns/Narrate%20the%20Agent.html -->
+## AI adds friction
+
+AI agents provide countless opportunities to enhance software development, but when AIs join the mob some problems arise.
+
+
 
 <!-- Claude: One real moment where flow broke would show "didn't feel right". Define Talker-Typist briefly for non-mobbers. -->
 
