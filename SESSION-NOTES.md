@@ -15,4 +15,4 @@ This file shows only what needs your attention right now. I rewrite it as things
 - Pair on File: `in-progress/patterns-of-working-with-ai-pair-on-file.md` (new; frontmatter and heading only)
 - Codex can monitor too: `in-progress/codex-can-monitor-too.md` (empty)
 
-How we work: `WORKING-STYLE.md`.
+How we work: `WORKING-STYLE.md`. hyperlink please
