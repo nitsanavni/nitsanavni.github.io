@@ -4,8 +4,6 @@ This file shows only what needs your attention right now. I rewrite it as things
 
 ## Needs you
 
-- Renamed to "Attention File" everywhere: the post (title, heading, filename), the overview's list, the Live Transcript draft's "Works best with", and this file, which is now `ATTENTION.md` (it was SESSION-NOTES.md).
-- Close every editor tab on an old filename (SESSION-NOTES.md, the chat-stream draft). Saving from one would bring the old file back. The current files are listed under Drafts.
 - Open comments in the drafts. Search for `Claude:` to find them.
 
 ## Drafts
@@ -16,4 +14,4 @@ This file shows only what needs your attention right now. I rewrite it as things
 - Pair on File: [in-progress/patterns-of-working-with-ai-pair-on-file.md](in-progress/patterns-of-working-with-ai-pair-on-file.md) (your minddump; 2 comments: today's observations, learnings from the skill)
 - Codex can monitor too: [in-progress/codex-can-monitor-too.md](in-progress/codex-can-monitor-too.md) (empty)
 
-How we work: [WORKING-STYLE.md](WORKING-STYLE.md)
+How we work: [WORKING-STYLE.md](WORKING-STYLE.md) please rm links
