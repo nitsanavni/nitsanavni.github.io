@@ -12,4 +12,4 @@ Yes, Claude can monitor the obvious
 
 The Codex CLI has its own way to accomplish the same thing. [codex-monitor](https://github.com/nitsanavni/codex-monitor)
 
-<!-- Claude: "Its own way" could suggest it's built into Codex. It isn't: codex-monitor is your tool, built on Codex's local App Server. Worth saying so? --> 
+<!-- Claude: "Its own way" could suggest it's built into Codex. it is fundamentally using codex primitives It isn't: codex-monitor is your tool, built on Codex's local App Server. Worth saying so? --> 
