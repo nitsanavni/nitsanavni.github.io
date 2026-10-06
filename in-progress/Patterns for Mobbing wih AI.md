@@ -2,7 +2,8 @@ Finally mobbing with AI feels right.
 
 tl,dr
 
-<!-- Claude: "tl;dr". Missing frontmatter (title, date). The filename becomes the URL: "wih" typo, and spaces. Rename before publishing. -->
+<!-- Claude: "tl;dr". Missing frontmatter (title, date). The filename becomes the URL: "wih" typo, and spaces. Rename before publishing. --> typos - you're welcome to just fix
+frontmatter too - just add
 
 Two main patterns make this possible for us:
 1. Session Notes - an alternative to reading the agents' chat streams
