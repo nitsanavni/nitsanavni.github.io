@@ -11,7 +11,7 @@ Two main patterns make this possible for us:
 1. [Attention File](/patterns-of-working-with-ai-attention-file/) - an alternative to reading the agents' chat streams
 2. [Live Transcript](/patterns-of-working-with-ai-live-transcript/) - agents monitor the conversation in real-time
 
-You might already know that I'm passionate about both Mob Programming and using AI in software development. Both have profoundly changed the way I work. However, bringing them together has been a challenge - it didn't feel right. It seemed like our existing ways of working weren't compatible with the ever growing capabilities of AI agents. For a mob, the agents introduced new obstacles towards group flow, shared understanding, and disrupted our existing roles of Talker-Typist which sits at the core of our practice.
+You might already know that I'm passionate about both Mob Programming and using AI in software development. Both have profoundly changed the way I work. However, bringing them together has been a challenge - it didn't feel right. It seemed like our existing ways of working weren't compatible with the ever growing capabilities of AI agents. For a mob, the agents introduced new obstacles towards group flow, shared understanding, and disrupted our existing roles of Talker-Typist which sit at the core of our practice.
 
 <!-- Claude: One real moment where flow broke would show "didn't feel right". Define Talker-Typist briefly for non-mobbers. -->
 
