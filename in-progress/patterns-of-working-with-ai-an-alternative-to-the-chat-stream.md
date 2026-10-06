@@ -55,6 +55,6 @@ Examples include features like:
 
 # Works well with 
 
-- live transcripts - the rapid flow of messages makes it even harder to follow Claude's chat stream
+- Live Transcript - the rapid flow of messages makes it even harder to follow Claude's chat stream
 - html - expressive
 - pair on artifact

@@ -9,9 +9,7 @@ tl;dr
 
 Two main patterns make this possible for us:
 1. [Session Notes](/patterns-of-working-with-ai-an-alternative-to-the-chat-stream/) - an alternative to reading the agents' chat streams
-2. [Transcript-aware Agent](/patterns-of-working-with-ai-agent-follows-live-meeting-transcript/) - agents monitor the conversation in real-time
-
-<!-- Claude: "Session Notes" names a thing; "Transcript-aware Agent" names an ability. Pick one kind for both. -->
+2. [Live Transcript](/patterns-of-working-with-ai-agent-follows-live-meeting-transcript/) - agents monitor the conversation in real-time
 
 <!-- Claude: Links point at the drafts' current filenames. I'll update them if a file gets renamed. -->
 

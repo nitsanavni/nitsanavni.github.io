@@ -3,13 +3,7 @@ title: patterns of working with AI - agent follows live meeting transcript
 date: 2026-10-06
 ---
 
-ideas for better names for this pattern?
-
-<!-- Claude: Ideas, grouped by what the name points at.
-Named after the artifact, to match "Session Notes": "Live Transcript", "Shared Transcript".
-Named after the behavior: "Listening Agent", "Agent Listens In", "Overhearing Agent".
-Named after the mob: "Agent in the Room", "Agent Joins the Mob".
-My pick: "Live Transcript" - agree make it so, because then both pattern names refer to a file the agent and the people share. If you'd rather name the agent, "Listening Agent" is the plainest. -->
+<!-- Claude: Pattern name is now "Live Transcript" (in the overview too). Keep this title and filename, or switch to e.g. "patterns of working with AI - Live Transcript"? I'd rename the file to match. -->
 
 # patterns of working with AI - agent follows live meeting transcript
 
