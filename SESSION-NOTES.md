@@ -4,7 +4,7 @@ This file shows only what needs your attention right now. I rewrite it as things
 
 ## Needs you
 
-- New draft, Pair on File: it has only frontmatter and a heading. The Session Notes draft's "Works well with" said "pair on artifact"; it now links to this post. Tell me if they're different ideas. ok and let;s decide on one name - artifcat or file?
+- Name: "file" or "artifact"? I suggest **Pair on File**. It's concrete, it matches the other patterns (Session Notes and Live Transcript are both files), and the mechanism is literally watching a file. "Artifact" is broader, covering HTML pages, canvases and docs, but it's vaguer, and "html" is already its own item in Session Notes' "Works well with". It's "Pair on File" everywhere now. Say "artifact" and I'll rename it all.
 - Close any editor tabs left on old filenames. Saving from one would bring the old file back. The current files are under Drafts below.
 - Open comments in the drafts. Search for `Claude:` to find them.
 
