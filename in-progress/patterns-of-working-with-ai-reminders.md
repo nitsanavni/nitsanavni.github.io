@@ -4,6 +4,7 @@ date: 2026-10-06
 ---
 
 # patterns of working with AI - Reminders rename the file too - tidy
+<!-- Claude: on it -->
 
 Set up a reminder system for your codign agent. Agree on what should 
 
