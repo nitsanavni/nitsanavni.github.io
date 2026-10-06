@@ -3,6 +3,7 @@
 This file shows only what needs your attention right now. I rewrite it as things change and remove anything you're done with. The history is in git.
 
 new post wip - reminders
+<!-- Claude: on it -->
 
 ## Needs you
 
