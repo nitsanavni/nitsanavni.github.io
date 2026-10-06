@@ -1,6 +1,6 @@
 # Writing session
 
-Claude (Claude Code) owns this file, the watch, and syncing. Codex has handed off.
+Claude (Claude Code) owns this file, the watch, and syncing. Codex has handed off. Good 
 
 ## Working agreement
 
@@ -14,12 +14,10 @@ Claude (Claude Code) owns this file, the watch, and syncing. Codex has handed of
 
 ## Drafts
 
-| Post | File | State |
-|---|---|---|
-| Overview: mobbing with AI | `in-progress/Patterns for Mobbing wih AI.md` | 3 Codex review comments |
-| Pattern: session notes | `in-progress/untitled-2.md` | 3 Codex review comments |
-| Pattern: live transcript | `in-progress/patterns-of-working-with-ai-agent-follows-live-meeting-transcript.md` | 3 Codex review comments |
-| Codex can monitor too | `in-progress/codex-can-monitor-too.md` | empty placeholder |
+- Overview, mobbing with AI: `in-progress/Patterns for Mobbing wih AI.md` (3 Codex review comments)
+- Pattern, session notes: `in-progress/untitled-2.md` (3 Codex review comments)
+- Pattern, live transcript: `in-progress/patterns-of-working-with-ai-agent-follows-live-meeting-transcript.md` (3 Codex review comments)
+- Codex can monitor too: `in-progress/codex-can-monitor-too.md` (empty placeholder)
 
 ## Status
 
@@ -34,3 +32,4 @@ claude are you watching this?
 ## Claude
 
 - Yes. I saw that save about 10 s after you made it. I moved your line down here so the top stays tidy.
+- No tables from now on; plain lists, since you read this raw in the editor.
