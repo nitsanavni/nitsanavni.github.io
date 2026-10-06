@@ -3,6 +3,7 @@
 This file shows only what needs your attention right now. I rewrite it as things change and remove anything you're done with. The history is in git.
 
 git synced at all times?
+- Yes. Local master matches origin; I checked just now. The watcher commits and pushes every settled save on its own. One catch: your old SESSION-NOTES.md tab saved the file back at 11:44. It held nothing new (your "rm links" was already handled here), so I deleted it again. Please close that tab.
 
 ## Needs you
 
