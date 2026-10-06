@@ -1,7 +1,7 @@
 # Writing session
 
 >>> LATEST FROM CLAUDE, newest first <<<
-- 11:20 SEEN + DONE: "Live Transcript - make it so". The pattern is now called "Live Transcript" in the overview's list and in the session notes draft's "Works well with" (was "live transcripts"). I removed the resolved naming comments. One question in the transcript draft: should its title and filename change too?
+- 11:20 SEEN + DONE: "Live Transcript - make it so". The pattern is now called "Live Transcript" in the overview's list and in the session notes draft's "Works well with" (was "live transcripts"). I removed the resolved naming comments. One question in the transcript draft: should its title and filename change too? change it all over tha pace
 - 11:19 SEEN + DONE: "ideas for better names" (live transcript draft). Options are in a comment right under your question.
 - 11:17 SEEN + DONE: "just fix things like typos and spaces". The overview is now `in-progress/patterns-for-mobbing-with-ai.md`. CLOSE the old "Patterns for Mobbing wih AI.md" tab and open the new file, or a save from the old tab will bring it back. I removed my resolved comment. From now on I fix typos, spacing and filenames without asking and list them here.
 - 11:17 SEEN + DONE: "rename this". `untitled-2.md` is now `patterns-of-working-with-ai-an-alternative-to-the-chat-stream.md` (from its title), and the overview's link is updated. If your editor still has the old file open, close it and open the new one. Want a shorter name? Tell me.
