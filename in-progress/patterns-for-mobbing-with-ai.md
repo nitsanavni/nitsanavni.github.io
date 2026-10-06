@@ -11,7 +11,7 @@ Two main patterns make this possible for us:
 1. [Attention File](/patterns-of-working-with-ai-attention-file/) - an alternative interface to the agent chat stream
 2. [Live Transcript](/patterns-of-working-with-ai-live-transcript/) - the agent monitors the conversation in real-time
 
-Both have to do with modifying the chat-based interface of coding agents. How we provide input to the agent and how we consume output from it. Using these allows us to overcome the friction we've been experiencing in our mobs using AI.
+Both have to do with modifying the chat-based interface of coding agents. How we provide input to the agent and how we consume output from it. Using these allows us to overcome the friction we've been experiencing with AI in our mobs.
 
 ## Mobs struggle using AI
 
