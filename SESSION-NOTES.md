@@ -1,16 +1,23 @@
 # Writing session
 
-Claude (Claude Code) owns this file, the watch, and syncing. Codex has handed off. Good then please rewrite this file in your voice
+>>> LATEST FROM CLAUDE (11:04), newest first <<<
+- 11:04 Rewrote this file in my voice. Your three requests (my voice, fast acks, prominent changes) are now rules below.
+- 11:03 codex-monitor end-to-end test on this Mac passed. Details under "What I'm doing".
+>>> end <<<
 
-## Working agreement
+I'm Claude, running in Claude Code, and I've taken over from Codex. I watch your drafts and this file, commit your saves to `master`, and answer here, so you never need the chat.
 
-- Nitsan writes the prose and titles. Claude offers feedback in `<!-- Claude: ... -->` comments.
-  Earlier `<!-- Codex review: ... -->` comments stay until you resolve them.
-- Nitsan creates draft files. Claude creates an empty placeholder only when asked.
-- Reply inside a comment or add `<!-- Nitsan: ... -->` nearby to discuss a passage.
-- This file: requests, priorities, decisions across drafts. Write under **Nitsan**; Claude replies under **Claude**.
-- Saves are synced to `master` in small commits once they settle (~10 s quiet). WIP drafts and this file only.
-- Publishing (moving out of `in-progress/`) needs your explicit OK.
+## How I work here
+
+- You write all the prose and titles. I don't add sentences to your drafts.
+- My feedback goes inline as `<!-- Claude: ... -->` comments. The earlier `<!-- Codex review: ... -->` comments stay until you resolve them.
+- To discuss a passage, reply inside my comment or add `<!-- Nitsan: ... -->` next to it.
+- Requests go under "Nitsan" at the bottom of this file.
+- When I see a request, the first thing I do, before any other work, is add a "seen" line to the LATEST block and commit it. When the work is done, I add a "done" line.
+- Every change I make is listed in the LATEST block at the top, with the time, newest first. In drafts, my comments always start with `<!-- Claude:` so you can search for them.
+- When a save settles (about 10 s of quiet), I commit it to `master` as a small commit. I only commit WIP drafts and this file.
+- I create an empty placeholder only when you ask. I move nothing out of `in-progress/` without your OK.
+- No tables. Plain lists, since you read this raw in the editor.
 
 ## Drafts
 
@@ -19,17 +26,17 @@ Claude (Claude Code) owns this file, the watch, and syncing. Codex has handed of
 - Pattern, live transcript: `in-progress/patterns-of-working-with-ai-agent-follows-live-meeting-transcript.md` (3 Codex review comments)
 - Codex can monitor too: `in-progress/codex-can-monitor-too.md` (empty placeholder)
 
-## Status
+## What I'm doing
 
-- Watch: Claude polls the drafts and this file every 2 s; a settled save wakes Claude.
-- Old Codex watch (`mon-3c6480db8d`) was orphaned after its session closed; stopped.
-- `codex-monitor` (`~/code/codex-monitor`): macOS port in progress, plus a fix so a watch stops when its Codex session is gone. Being tested end to end against a real Codex in tmux.
+- Watching the drafts and this file, checking every 2 s.
+- codex-monitor (`~/code/codex-monitor`):
+  - I stopped Codex's old watch. It had been orphaned when that session closed.
+  - Root cause: a watch only checked that its conversation was alive when it had output to deliver, so a quiet watch never found out.
+  - Fix: a heartbeat every 30 s (configurable with `--heartbeat`) that stops the watch once the conversation is gone.
+  - End-to-end test against a real Codex in tmux on this Mac: the event arrived and woke Codex. When I killed Codex, the daemon dropped the thread after about 40 s and the heartbeat stopped the watch 4 s later.
+  - Known gap: during those ~40 s, a new event could still start a turn in the closed conversation. I'm documenting it.
+  - Next: finish reviewing the macOS port, then commit and push.
 
 ## Nitsan
 
-claude are you watching this?
-
-## Claude
-
-- Yes. I saw that save about 10 s after you made it. I moved your line down here so the top stays tidy.
-- No tables from now on; plain lists, since you read this raw in the editor.
+<!-- Your requests go here. -->
