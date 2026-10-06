@@ -47,7 +47,7 @@ Examples include features like:
 
 # Uses
 
-- Monitor - let's create placeholder for this guy
+- [Monitor](/patterns-of-working-with-ai-monitor/)
 
 
 # Works well with 

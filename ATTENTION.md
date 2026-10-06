@@ -12,6 +12,7 @@ This file shows only what needs your attention right now. I rewrite it as things
 - Attention File: in-progress/patterns-of-working-with-ai-attention-file.md (4 comments: framing, a real example, material from today)
 - Live Transcript: in-progress/patterns-of-working-with-ai-live-transcript.md (4 comments: a real moment, why working meetings fit, the mob's agreements)
 - Pair on File: in-progress/patterns-of-working-with-ai-pair-on-file.md (your minddump; 2 comments: today's observations, learnings from the skill)
+- Monitor: in-progress/patterns-of-working-with-ai-monitor.md (new; frontmatter and heading only)
 - Codex can monitor too: in-progress/codex-can-monitor-too.md (empty)
 
 How we work: WORKING-STYLE.md
