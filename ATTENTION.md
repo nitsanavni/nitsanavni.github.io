@@ -7,6 +7,7 @@ git synced at all times?
 
 ## Needs you
 
+- The Monitor draft now has a "codex can monitor too" section, and the separate codex-can-monitor-too.md is still empty. Should I delete that placeholder so it's one post? I'll leave it until you say. For that section, the repo is public: https://github.com/nitsanavni/codex-monitor
 - Open comments in the drafts. Search for `Claude:` to find them.
 
 ## Drafts
