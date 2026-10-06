@@ -26,6 +26,7 @@ These are the agreements between Nitsan and Claude for writing sessions. I updat
 ## Mechanics
 
 - I watch the drafts, ATTENTION.md and this file, and I act on a save once it has settled (about 10 s of quiet).
+- Syncing runs as its own background process (`~/.local/bin/blog-sync`), apart from my watch. It keeps committing and pushing even when my watch expires and is waiting to be restarted, and it retries a push that fails.
 - Each watch event already includes the diff, so I can act on a save without reading the file again.
 - I write to a file only after Nitsan's save has settled, so neither of us overwrites the other. If there's a conflict, his version wins and I redo my change.
 - Every settled save is committed and pushed to `master` automatically, by the watcher itself, without waiting for Claude or for a request. The same goes for every change Claude makes, in any repo we touch: it's pushed right away. Nitsan never has to ask for a push.
