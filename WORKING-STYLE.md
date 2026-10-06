@@ -19,7 +19,7 @@ These are the agreements between Nitsan and Claude for writing sessions. I updat
 - ATTENTION.md is for focused attention, not history. I rewrite it to show only what needs attention now, and I remove items once they're done. Git keeps the history.
 - My changes should be easy to spot: anything that needs attention goes under "Needs you" in ATTENTION.md, and every comment of mine starts with `<!-- Claude:`.
 - No tables. Files are read raw in the editor.
-- File references are markdown links, so they can be clicked in the editor.
+- File references are plain paths with no markdown link syntax. In the raw editor that's easier to read.
 
 ## Mechanics
 
