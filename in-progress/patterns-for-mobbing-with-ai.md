@@ -29,7 +29,7 @@ AI agents provide countless opportunities to enhance software development, but w
 
 
 
-<!-- Claude: One real moment where flow broke would show "didn't feel right". Define Talker-Typist briefly for non-mobbers. -->
+<!-- Claude: One real moment where flow broke would show "didn't feel right". -->
 
 
 
