@@ -36,7 +36,7 @@ Some ideas to help reduce this
   - smaller steps - more humans in the loop, less agent autonomy
   - have the agent narrate its work to make it easier to follow
   - have a person narrate the agent's progress out loud - [Narrate the agent](https://jay.bazuzi.com/Mobbing-Pattern-Language/patterns/Narrate%20the%20Agent.html)
-- The balance between the talking-typing pair is disrupted - since a lot of the work is funneled through the agent interface, many times "typing" consists of 
+- The balance between the talking-typing pair is disrupted - since a lot of the work is funneled through the agent interface, many times the collaboration reduces to mere dictation, the typist does not add any expertise
 
 
 
