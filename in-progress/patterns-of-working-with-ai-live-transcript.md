@@ -1,11 +1,9 @@
 ---
-title: patterns of working with AI - agent follows live meeting transcript
+title: patterns of working with AI - Live Transcript
 date: 2026-10-06
 ---
 
-<!-- Claude: Pattern name is now "Live Transcript" (in the overview too). Keep this title and filename, or switch to e.g. "patterns of working with AI - Live Transcript"? I'd rename the file to match. -->
-
-# patterns of working with AI - agent follows live meeting transcript
+# patterns of working with AI - Live Transcript
 
 Claude joined our mob programming session.
 
